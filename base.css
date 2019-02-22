@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body {
+  font-family: Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
+  background: #ddd;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+pre {
+  font-family: "Courier New", Monospace;
+}
+.box {
+  width: 100%;
+  text-align: center;
+}
+.btn-block {
+  margin: 20px 0;
+}
+.button {
+  padding: 5px 10px;
+  min-width: 120px;
+  outline: 0;
+  border-radius: 2px;
+  transition: all .15s;
+  border: 1px solid transparent;
+
+  color: #fff;
+  text-decoration: none;
+}
+.button.prev {
+  background: #1989fa;
+  border-color: #1989fa;
+}
+.button.home {
+  background-color: #67c23a;
+  border-color: #67c23a;
+}
+
+.button.prev:hover {
+  background-color: #0577ea;
+  border-color: #0577ea;
+}
+.button.home:hover {
+  background-color: #58a732;
+  border-color: #58a732;
+}
